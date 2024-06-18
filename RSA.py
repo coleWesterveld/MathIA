@@ -63,8 +63,8 @@ def chooseKeys():
     fo.close()
 
     # store our prime numbers in these variables
-    prime1 = int(lines[rand1])
-    prime2 = int(lines[rand2])
+    prime1 = 3654633221#int(lines[rand1])
+    prime2 = 3610663543#int(lines[rand2])
 
     # compute n, totient, e
     n = 13195650934101362003#prime1 * prime2
